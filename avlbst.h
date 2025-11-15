@@ -207,7 +207,6 @@ void AVLTree<Key, Value>::insert (const std::pair<const Key, Value> &new_item)
 template<class Key, class Value>
 void AVLTree<Key, Value>:: remove(const Key& key)
 {
-    // TODO
     // Find node
     Node<Key,Value>* n = this->internalFind(key);
     if(n == NULL) return;
